@@ -1,0 +1,22 @@
+{
+  "name":"test",
+  "tags":["test"],
+  "description":"A test command for the echo command",
+  "command":"Get-Process | Select-Object -Property ProcessName,Id,Handles,WorkingSet ",
+  "parameters":[
+    {
+      "name": "test1",
+      "value": "testValue1"
+    },    {
+      "name": "test2",
+      "value": "testValue2"
+    },    {
+      "name": "test3",
+      "value": "testValue3"
+    },    {
+      "name": "test4",
+      "value": "testValue4"
+    }
+  ],
+  "id": "6d987749-2a4d-433b-b69c-a011ad9d1b63"
+}
