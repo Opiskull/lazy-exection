@@ -1,0 +1,10 @@
+{
+  "name":"List processes",
+  "tags":[
+    "processes"
+  ],
+  "description":"List processes of the computer",
+  "command":"Get-Process | Select-Object -Property ProcessName,Id,Handles,WorkingSet",
+  "type":"ps",
+  "id": "6d987749-2a4d-433b-b69c-a011ad9d1b63"
+}

@@ -5,10 +5,12 @@
   "main": "src/server.js",
   "dependencies": {
     "co-fs": "^1.2.0",
+    "extend": "^2.0.0",
     "gulp": "^3.8.11",
     "gulp-develop-server": "^0.4.1",
     "koa": "^0.18.1",
     "koa-json": "^1.1.1",
+    "koa-json-body": "0.0.3",
     "koa-router": "^4.2.0",
     "node-uuid": "^1.4.3"
   },

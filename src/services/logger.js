@@ -2,18 +2,8 @@ var util = require('util');
 
 var logger = {
     info:info,
-    error:error,
-    koa: register
+    error:error
 };
-
-function register(){
-    return function *(next){
-        var start = new Date;
-        yield next;
-        var ms = new Date - start;
-        logger.info('%s %s - %s ms', this.method, this.url, ms);
-    }
-}
 
 function applyParameters(parameters){
     var message = util.format.apply(util,parameters);

@@ -1,0 +1,12 @@
+{
+  "name":"sample",
+  "tags":["sample"],
+  "description":"this is a sample",
+  "command":"echo \"{{testvalue}}\"",
+  "type":"cmd",
+  "parameters":[{
+    "name":"testvalue",
+    "value":"this is a sample text"
+  }],
+  "id": "75227ea8-d978-4df8-b1b4-d0ef84d6c52f"
+}
